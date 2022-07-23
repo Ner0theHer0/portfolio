@@ -1,0 +1,67 @@
+.navbar {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 1180px;
+    width: 80%;
+    margin:auto;
+    overflow: hidden;
+  }
+
+  .homeBut {
+      background-color: #fff;
+      border: none;
+      padding: 20px;
+  }
+
+  .homeBut:hover {
+    cursor: pointer;
+  }
+
+  .dev {
+    background-image: linear-gradient(to right, #4CB8C4 0%, #3CD3AD  51%, #4CB8C4  100%);
+    margin: 10px;
+    padding: 15px 15px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 0 10px 10px 0;
+  }
+  
+           
+  .btn-grad {
+    background-image: linear-gradient(to right, #4CB8C4 0%, #3CD3AD  51%, #4CB8C4  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+  }
+  
+  .btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  
+  .name {
+    float: left;
+  }
+  
+  .navOptions {
+    float: right;
+  }
