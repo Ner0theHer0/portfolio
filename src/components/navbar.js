@@ -7,15 +7,15 @@ const NavBar = () => {
             <div className='container'>
                 <div className='name'>
                     <button className='homeBut'>
-                        <span>Malachi</span>
-                        <span className='dev'>Dev</span>
+                        <span className='mal'>malachi / </span>
+                        <span className='dev'>DEV</span>
                     </button>
                 </div>
                 <div className='navOptions'>
-                    <button>Skills</button>
-                    <button>Experience</button>
-                    <button>Projects</button>
-                    <button>Contact</button>
+                    <button className='navBut'>Skills</button>
+                    <button className='navBut'>Experience</button>
+                    <button className='navBut'>Projects</button>
+                    <button className='btn-grad'>Contact</button>
                 </div>
             </div>
         </div>

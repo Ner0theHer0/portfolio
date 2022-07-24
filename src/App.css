@@ -1,6 +1,6 @@
-.App {
+/* .App {
   text-align: center;
-}
+} */
 
 .App-logo {
   height: 40vmin;
@@ -13,8 +13,28 @@
   }
 }
 
+.intro {
+  background-image: linear-gradient(to bottom, darkblue, purple);
+  min-height: 92vh;
+}
+
+.introCtr {
+  height: 100%;
+  padding: 20px;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  letter-spacing: -1px; 
+  color: white;
+  max-width: 1180px;
+  width: 80%;
+  margin:auto;
+  align-items: left;
+  padding-top: 10%;
+}
+
 .App-header {
-  background-color: #282c34;
+  background-image: linear-gradient(to bottom, darkblue, purple);
   min-height: 100vh;
   display: flex;
   flex-direction: column;

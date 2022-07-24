@@ -6,6 +6,14 @@ function App() {
   return (
     <div className="App">
       <NavBar/>
+      <div className='intro'>
+        <div className='introCtr'>
+          <h1>NOT JUST</h1>
+          <h1>A DEVELOPER</h1>
+          <p>A helping hand for your next project.</p>
+          <p>Big, small, and anything in between.</p>
+        </div>
+      </div>
       <div className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
